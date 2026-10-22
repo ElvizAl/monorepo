@@ -1,10 +1,7 @@
 allowBuilds:
   esbuild: true
   lightningcss: true
-
-onlyBuiltDependencies:
-  - esbuild
-  - lightningcss
+  workerd: true
 
 packages:
   - "apps/*"
