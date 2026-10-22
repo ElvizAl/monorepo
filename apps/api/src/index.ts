@@ -7,7 +7,7 @@ app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
-const port = Number(process.env.PORT) || 3001
+const port = Number(process.env.PORT) || 8000
 
 serve({
   fetch: app.fetch,
